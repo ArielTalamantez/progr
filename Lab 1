@@ -1,0 +1,32 @@
+# Program Name: Lab1.py (use the name the program is saved as)
+# Course: IT1114/Section W04
+# Student Name: Ariel Talamantez
+# Assignment Number: Lab# 1
+# Due Date: 08/27/ 2023
+# Purpose: What does the program do?
+# The program will calculate the amount and cost of purchasing flooring.
+# List specific resources used to complete the assignment
+from ast import main
+
+
+Length = float(input("enter room length: "))
+Width = float(input("enter room width: "))
+Cost_PSF = float(input("cost per foot: "))
+
+#Square feet
+a = Length * Width
+#Flooring
+b = a * Cost_PSF
+#tax
+c = b * 7/100
+#total
+e = a + b + c
+
+print("square feet")
+print(a)
+print("Flooring")
+print(b)
+print("tax")
+print(c)
+print("Total")
+print(e)
